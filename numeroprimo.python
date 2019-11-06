@@ -1,0 +1,14 @@
+ #testa numero primo
+def primo(numero):
+    for i in range(2,numero):
+        if not numero%i:
+            return False
+        else:
+            print(str(numero)+' primo!')
+            return True
+
+print(primo(1))
+print(primo(100))
+
+for numero in range(1,100):
+    primo(numero)
