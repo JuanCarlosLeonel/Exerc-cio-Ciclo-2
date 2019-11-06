@@ -1,0 +1,17 @@
+#forma triangulo.
+
+a = int(input ('Insira o valor do lado a:'))
+b = int(input ('Insira o valor do lado b:'))
+c = int(input ('Insira o valor do lado c :'))
+
+if (a + b > c ) and (a + c > b) and (b + c > a):
+   print('Forma Triangulo')
+
+   import math
+
+   b = input("Insira a base do triangulo: ")
+   h = input("Insira a altura do triangulo: ")
+   print "Area do triangulo",(b * h)/2
+
+else:
+    print("Não forma triangulo")
