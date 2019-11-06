@@ -1,0 +1,15 @@
+#Faça um programa que leia 3 números inteiros e mostre o menor deles.
+
+n1=int(input('Insira o primeiro numero:'))
+n2=int(input('Insira o segundo numero:'))
+n3=int(input('Insira o terceiro numero:'))
+
+menor = n1
+
+if menor >n2:
+    menor = n2
+
+if menor >n3:
+    menor = n3
+
+print('O menor numero digitado foi:  %d' %menor)
