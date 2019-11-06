@@ -1,0 +1,10 @@
+1 
+#Faça um programa que leia a idade de uma pessoa expressa em dias e mostre-a expressa em anos, meses e dias.
+
+ano=int(input('Insira o ano que você nasceu='))
+mes=int(input('Insira o mês que você nasceu='))
+dia=int(input('Insira o dia que você nasceu='))
+
+idadedia=((365 * (2019 - ano))+(30 * mes)+dia)
+
+print('Você tem ' + str(idadedia)+' dias de idade!')
