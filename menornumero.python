@@ -1,15 +1,17 @@
 #Faça um programa que leia 3 números inteiros e mostre o menor deles.
 
-n1=int(input('Insira o primeiro numero:'))
-n2=int(input('Insira o segundo numero:'))
-n3=int(input('Insira o terceiro numero:'))
+from time import sleep
+n1 = int(input('Insira o primeiro numero:'))
+n2 = int(input('Insira o segundo numero:'))
+n3 = int(input('Insira o terceiro numero:'))
 
 menor = n1
 
-if menor >n2:
-    menor = n2
-
-if menor >n3:
+if menor > n3:
     menor = n3
+elif menor > n2:
+    menor = n2
+print('Verificando qual foi o menor número...')
+sleep(2)
+print('O MENOR numero digitado foi: \033[1;31m{}\033[m'.format(menor))
 
-print('O menor numero digitado foi:  %d' %menor)
